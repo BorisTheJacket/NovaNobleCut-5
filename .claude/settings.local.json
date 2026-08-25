@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(du -sh build .dart_tool NovaNobleCut.apk android/.gradle ios/Pods)",
+      "Bash(du -sh .)",
+      "Read(//Users/hospodar/Downloads/Telegram Desktop/**)",
+      "Bash(rm -f NovaNobleCut.zip)",
+      "Bash(zip -r -q NovaNobleCut.zip 'NovaNobleCut 2' -x */ios/Pods/* -x */macos/Pods/* -x */.dart_tool/* -x */.idea/* -x *.iml -x */.DS_Store -x */.flutter-plugins-dependencies -x */android/local.properties -x */ios/Flutter/ephemeral/* -x */ios/Flutter/Generated.xcconfig -x */ios/Flutter/flutter_export_environment.sh -x */build/* -x */.git/*)",
+      "Bash(unzip -l NovaNobleCut.zip)",
+      "Bash(zip -r -q NovaNobleCut.zip 'NovaNobleCut 2' -x */ios/Pods/* -x */macos/Pods/* -x */ios/.symlinks/* -x */macos/.symlinks/* -x */flutter/ephemeral/* -x */.dart_tool/* -x */.idea/* -x *.iml -x */.DS_Store -x */.flutter-plugins-dependencies -x */android/local.properties -x */ios/Flutter/Generated.xcconfig -x */ios/Flutter/flutter_export_environment.sh -x */build/* -x */.git/*)"
+    ]
+  }
+}
